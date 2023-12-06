@@ -22,7 +22,14 @@ Abaixo segue as principais conclusões do projeto.
 
 ## Entendimento do negócio
 
-O problema a ser resolvido trata-se de classificação binária, pois queremos prever quais clientes irão abandonar a empresa ou não.
+A empresa fictícia em questão é a Telco, uma empresa de telecomunicação que, pelo que eu enferi do dataset, fornece serviços de:
+
+ * Telefone
+ * Internet
+ * Segurança Online
+ * Backup Online
+
+O problema a ser resolvido é prever quais clientes irão abandonar a empresa ou não. Ou seja, claramente trata-se de um problema de classificação binária.
 
 Para ser mais correto, queremos prever os clientes com maior probabilidade de abandonarem o serviço da empresa. Se fosse cobrir a etapa de implantação, esta ideia serial trivial, pois a solução final teria que ser capaz de retornar uma lista ordenada dos clientes da maior para a menor probabilidade de abandonarem o serviço. E apartir disso a empresa poderia tomar alguma ação para manter os clientes.
 
@@ -47,3 +54,4 @@ De modo geral podemos destacar sobre o modelo:
   * consegure renconhecer entre 70% e 71% dos casos de churn
   * rechonhece entre 81% e 83% dos casos de não-churn
 
+`Para acomponhar todo o processo, veja o arquivo Previsão_de_Churn.ipynb`
